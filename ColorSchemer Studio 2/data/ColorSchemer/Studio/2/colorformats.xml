@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formats>
+  <format space="1">{hex}</format>
+  <format space="1">#{hex}</format>
+  <format space="1">{r}, {g}, {b}</format>
+  <format space="2">{c}C {m}M {y}Y {k}K</format>
+</formats>

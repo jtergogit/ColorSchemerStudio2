@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="两栏" description="带有标题栏的双栏网站布局" author="ColorSchemer">
+
+	<layer name="标题栏" color="666666">
+		<rect>
+			<left>10%</left>
+			<top>50</top>
+			<right>90%</right>
+			<bottom>94</bottom>
+		</rect>
+		<style>
+			<border>
+				<left size="1" color="000000" alpha="50" />
+				<top size="1" color="000000" alpha="50" />
+				<right size="1" color="000000" alpha="50" />
+				<bottom size="1" color="000000" alpha="50" />
+			</border>
+			<gradient style="glass" angle="90">
+				<color alpha="15">FFFFFF</color>
+				<color alpha="5">FFFFFF</color>
+			</gradient>
+		</style>
+
+		<textlayer color="ffffff">
+			<text font="宋体" size="15">标题文字</text>
+			<rect>
+				<left>10</left>
+				<top>12</top>
+				<right>-10</right>
+				<bottom>-12</bottom>
+			</rect>
+		</textlayer>
+	</layer>
+
+	<layer name="Nav" color="cccccc">
+		<rect>
+			<left>10%</left>
+			<top>94</top>
+			<right>35%</right>
+			<bottom>90%</bottom>
+		</rect>
+		<style>
+			<border>
+				<left size="1" color="000000" alpha="50" />
+				<right size="1" color="000000" alpha="50" />
+ 				<bottom size="1" color="000000" alpha="50" />
+			</border>
+		</style>
+
+		<textlayer name="Links">
+			<text font="宋体" size="11">链接 1</text>
+			<rect>
+				<left>10</left>
+				<top>20</top>
+				<right>-10</right>
+				<bottom>34</bottom>
+			</rect>
+		</textlayer>
+		<textlayer name="Links">
+			<text font="宋体" size="11">链接 2</text>
+			<rect>
+				<left>10</left>
+				<top>34</top>
+				<right>-10</right>
+				<bottom>48</bottom>
+			</rect>
+		</textlayer>
+		<textlayer name="Links">
+			<text font="宋体" size="11">链接 3</text>
+			<rect>
+				<left>10</left>
+				<top>48</top>
+				<right>-10</right>
+				<bottom>62</bottom>
+			</rect>
+		</textlayer>
+		<textlayer name="Links">
+			<text font="宋体" size="11">链接 4</text>
+			<rect>
+				<left>10</left>
+				<top>62</top>
+				<right>-10</right>
+				<bottom>76</bottom>
+			</rect>
+		</textlayer>
+	</layer>
+
+	<layer name="Content" color="ffffff">
+		<rect>
+			<left>35%</left>
+			<top>94</top>
+			<right>90%</right>
+			<bottom>90%</bottom>
+		</rect>
+		<style>
+			<border>
+				<right size="1" color="000000" alpha="50" />
+				<bottom size="1" color="000000" alpha="50" />
+			</border>
+		</style>
+	
+		<textlayer name="Content Text" color="666">
+			<text font="Verdana" size="11">Lorem ipsum alterum appareat rationibus ne pro. Vis ex odio illud labores, assum tation suscipit eam ea. Pri meis mazim aperiam eu, has te labores maiestatis deterruisset.
+            
+Vim at vidit similique inciderint, meis ornatus nominavi id duo, usu ut accusata eloquentiam. Noluisse indoctum definiebas mei ad, vix eu ornatus ocurreret definiebas. Vide paulo fierent cu qui, at debet expetendis constituam mea.
+
+Ea eum detraxit qualisque, est assum eleifend deterruisset no, eos fabellas vivendum volutpat ad. In nec quis offendit dissentias, id vidit antiopam per. Tritani probatus mediocrem ius cu, ad sed ridens omnium petentium.
+
+Fugit postea sanctus ut pri, te pri stet summo docendi. Postea patrioque repudiandae mel id. Ex usu scaevola vituperata consectetuer, eius debitis albucius ea vim.</text>
+			<rect>
+				<left>20</left>
+				<top>20</top>
+				<right>-20</right>
+				<bottom>-20</bottom>
+			</rect>
+		</textlayer>
+	</layer>
+
+	<textlayer name="Page Header">
+		<text font="宋体" size="21" align="center">网页页面颜色预览</text>
+		<rect>
+			<left>10%</left>
+			<top>14</top>
+			<right>90%</right>
+			<bottom>40</bottom>
+		</rect>
+	</textlayer>
+</layout>

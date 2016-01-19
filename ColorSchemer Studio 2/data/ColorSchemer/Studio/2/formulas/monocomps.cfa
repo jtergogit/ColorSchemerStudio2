@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme name="单色比较">
+  <color>
+    <h>0</h>
+    <s>1</s>
+    <b>1</b>
+  </color>
+  <color>
+    <h>0</h>
+    <s>0.7</s>
+    <b>1</b>
+  </color>
+  <color>
+    <h>0</h>
+    <s>0.4</s>
+    <b>1</b>
+  </color>
+  <color>
+    <h>0.5</h>
+    <s>1</s>
+    <b>1</b>
+  </color>
+  <color ref="3">
+    <h>0</h>
+    <s>0.7</s>
+    <b>1</b>
+  </color>
+  <color ref="3">
+    <h>0</h>
+    <s>0.4</s>
+    <b>1</b>
+  </color>
+</scheme>

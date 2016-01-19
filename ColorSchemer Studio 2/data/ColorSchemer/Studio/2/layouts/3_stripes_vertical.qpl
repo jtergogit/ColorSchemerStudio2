@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="条纹 (竖直)" description="五个竖条纹" author="ColorSchemer">
+	<layer name="Stripe 1" color="333333">
+		<rect>
+			<left>0</left>
+			<top>0</top>
+			<right>20%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 2" color="666666">
+		<rect>
+			<left>20%</left>
+			<top>0</top>
+			<right>40%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 3" color="999999">
+		<rect>
+			<left>40%</left>
+			<top>0</top>
+			<right>60%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 4" color="cccccc">
+		<rect>
+			<left>60%</left>
+			<top>0</top>
+			<right>80%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 5" color="ffffff">
+		<rect>
+			<left>80%</left>
+			<top>0</top>
+			<right>100%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+</layout>

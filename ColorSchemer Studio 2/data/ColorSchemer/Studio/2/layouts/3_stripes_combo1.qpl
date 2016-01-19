@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="条纹 (组合一)" description="一个横条纹和四个竖条纹" author="ColorSchemer">
+	<layer name="Stripe 1" color="666">
+		<rect>
+			<left>10%</left>
+			<top>10%</top>
+			<right>90%</right>
+			<bottom>30%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 2" color="999">
+		<rect>
+			<left>10%</left>
+			<top>30%</top>
+			<right>30%</right>
+			<bottom>90%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 3" color="bbb">
+		<rect>
+			<left>30%</left>
+			<top>30%</top>
+			<right>50%</right>
+			<bottom>90%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 4" color="ddd">
+		<rect>
+			<left>50%</left>
+			<top>30%</top>
+			<right>70%</right>
+			<bottom>90%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Stripe 5" color="eee">
+		<rect>
+			<left>70%</left>
+			<top>30%</top>
+			<right>90%</right>
+			<bottom>90%</bottom>
+		</rect>
+	</layer>
+</layout>

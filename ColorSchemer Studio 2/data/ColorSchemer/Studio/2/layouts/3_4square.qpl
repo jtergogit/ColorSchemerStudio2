@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="四方" description="四方" author="ColorSchemer">
+	<layer name="Square 1" color="888">
+		<rect>
+			<left>0</left>
+			<top>0</top>
+			<right>50%</right>
+			<bottom>50%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Square 2" color="aaa">
+		<rect>
+			<left>50%</left>
+			<top>0</top>
+			<right>100%</right>
+			<bottom>50%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Square 3" color="eee">
+		<rect>
+			<left>50%</left>
+			<top>50%</top>
+			<right>100%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+
+	<layer name="Square 4" color="ccc">
+		<rect>
+			<left>0</left>
+			<top>50%</top>
+			<right>50%</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+</layout>

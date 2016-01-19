@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="杂志" description="杂志文章布局" author="ColorSchemer">
+	<layer name="Left Border" color="999">
+		<rect>
+			<left>0</left>
+			<top>0</top>
+			<right>40</right>
+			<bottom>100%</bottom>
+		</rect>
+	</layer>
+    
+    <layer name="Background" color="fff">    
+        <rect>
+			<left>40</left>
+			<top>0</top>
+			<right>100%</right>
+			<bottom>100%</bottom>
+		</rect>
+        
+        <textlayer name="Article Column" color="888">
+            <text font="Georgia" size="12">Lorem ipsum alterum appareat rationibus ne pro. Vis ex odio illud labores, assum tation suscipit eam ea. Pri meis mazim aperiam eu, has te labores maiestatis deterruisset. Vim at vidit similique inciderint, meis ornatus nominavi id duo, usu ut accusata eloquentiam. Noluisse indoctum definiebas mei ad, vix eu ornatus ocurreret definiebas. Vide paulo fierent cu qui, at debet expetendis constituam mea.
+
+Ea eum detraxit qualisque, est assum eleifend deterruisset no, eos fabellas vivendum volutpat ad. In nec quis offendit dissentias, id vidit antiopam per. Tritani probatus mediocrem ius cu, ad sed ridens omnium petentium. Fugit postea sanctus ut pri, te pri stet summo docendi. Postea patrioque repudiandae mel id. Ex usu scaevola vituperata consectetuer, eius debitis albucius ea vim.
+
+Soleat tempor nemore ut eos, per cu scaevola percipitur honestatis, ut mutat aperiri adolescens eum. Nam at malis regione insolens, mentitum dignissim mea no. Impedit concludaturque id cum, dico elitr tantas cum ad. Vel ea quaeque bonorum disputationi, paulo quaeque disputationi pri at, at cetero utamur honestatis pri.</text>
+            <rect>
+                <left>20</left>
+                <top>80</top>
+                <right>48%</right>
+                <bottom>-20</bottom>
+            </rect>
+        </textlayer>
+        
+        <textlayer name="Article Column" color="888">
+            <text font="Georgia" size="12">Lorem ipsum alterum appareat rationibus ne pro. Vis ex odio illud labores, assum tation suscipit eam ea. Pri meis mazim aperiam eu, has te labores maiestatis deterruisset. Vim at vidit similique inciderint, meis ornatus nominavi id duo, usu ut accusata eloquentiam. Noluisse indoctum definiebas mei ad, vix eu ornatus ocurreret definiebas. Vide paulo fierent cu qui, at debet expetendis constituam mea.
+
+Ea eum detraxit qualisque, est assum eleifend deterruisset no, eos fabellas vivendum volutpat ad. In nec quis offendit dissentias, id vidit antiopam per. Tritani probatus mediocrem ius cu, ad sed ridens omnium petentium. Fugit postea sanctus ut pri, te pri stet summo docendi. Postea patrioque repudiandae mel id. Ex usu scaevola vituperata consectetuer, eius debitis albucius ea vim.
+
+Soleat tempor nemore ut eos, per cu scaevola percipitur honestatis, ut mutat aperiri adolescens eum. Nam at malis regione insolens, mentitum dignissim mea no. Impedit concludaturque id cum, dico elitr tantas cum ad. Vel ea quaeque bonorum disputationi, paulo quaeque disputationi pri at, at cetero utamur honestatis pri.</text>
+            <rect>
+                <left>52%</left>
+                <top>80</top>
+                <right>-20</right>
+                <bottom>-20</bottom>
+            </rect>
+        </textlayer>
+    </layer>
+    
+    <layer name="Title Underline" color="ccc">
+		<rect>
+			<left>20</left>
+			<top>60</top>
+			<right>-20</right>
+			<bottom>63</bottom>
+		</rect>
+	</layer>
+    
+    <textlayer name="Title" color="777">
+        <text font="Georgia" size="42">文章标题</text>
+        <rect>
+            <left>60</left>
+            <top>18</top>
+            <right>100%</right>
+            <bottom>60</bottom>
+        </rect>
+    </textlayer>
+</layout>

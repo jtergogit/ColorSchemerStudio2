@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="居中" description="居中网站布局" author="ColorSchemer">
+
+    <layer name="Margin" color="eee">
+        <rect>
+            <left>0</left>
+            <top>0</top>
+            <right>10%</right>
+            <bottom>100%</bottom>
+        </rect>
+        <style>
+            <border>
+                <right size="6" color="000000" alpha="10" />
+            </border>
+        </style>
+    </layer>
+    
+    <layer name="Margin" color="eee">
+        <rect>
+            <left>90%</left>
+            <top>0</top>
+            <right>100%</right>
+            <bottom>100%</bottom>
+        </rect>
+        <style>
+            <border>
+                <left size="6" color="000000" alpha="10" />
+            </border>
+        </style>
+    </layer>
+
+    <layer name="Content" color="fff">
+        <rect>
+            <left>10%</left>
+            <top>0</top>
+            <right>90%</right>
+            <bottom>100%</bottom>
+        </rect>
+        <style>
+            <border>
+                <left size="1" color="000000" alpha="20" />
+                <right size="1" color="000000" alpha="20" />
+            </border>
+        </style>
+        
+        <layer name="Header" color="999">
+            <rect>
+                <left>0</left>
+                <top>0</top>
+                <right>100%</right>
+                <bottom>80</bottom>
+            </rect>
+            <style>
+                <border>
+                    <left size="1" color="000000" alpha="20" />
+                    <right size="1" color="000000" alpha="20" />
+                </border>
+                <gradient style="linear" angle="270">
+                    <color alpha="100">FFFFFF</color>
+                    <color alpha="80">FFFFFF</color>
+                </gradient>
+            </style>
+            
+            <textlayer name="HeaderText" color="333">
+                <text font="宋体" size="20">网站标题</text>
+                <rect>
+                    <left>18</left>
+                    <top>40</top>
+                    <right>180</right>
+                    <bottom>70</bottom>
+                </rect>
+            </textlayer>
+        </layer>
+        
+        <layer name="Navigation" color="999">
+            <rect>
+                <left>0</left>
+                <top>80</top>
+                <right>100%</right>
+                <bottom>114</bottom>
+            </rect>
+            <style>
+                <border>
+                    <left size="1" color="000" alpha="5" />
+                    <right size="1" color="000" alpha="5" />
+                </border>
+                <gradient style="glass" angle="90">
+                    <color alpha="15">fff</color>
+                    <color alpha="5">fff</color>
+                </gradient>
+            </style>
+    
+            <textlayer name="NavLink" color="fff">
+                <text font="Tahoma" size="11">链接 1</text>
+                <rect>
+                    <left>20</left>
+                    <top>10</top>
+                    <right>80</right>
+                    <bottom>40</bottom>
+                </rect>
+            </textlayer>
+                
+            <textlayer name="NavLink" color="fff">
+                <text font="Tahoma" size="11">链接 2</text>
+                <rect>
+                    <left>80</left>
+                    <top>10</top>
+                    <right>140</right>
+                    <bottom>40</bottom>
+                </rect>
+            </textlayer>
+                
+            <textlayer name="NavLink" color="fff">
+                <text font="Tahoma" size="11">链接 3</text>
+                <rect>
+                    <left>140</left>
+                    <top>10</top>
+                    <right>200</right>
+                    <bottom>40</bottom>
+                </rect>
+            </textlayer>
+                
+            <textlayer name="NavLink" color="fff">
+                <text font="Tahoma" size="11">链接 4</text>
+                <rect>
+                    <left>200</left>
+                    <top>10</top>
+                    <right>260</right>
+                    <bottom>40</bottom>
+                </rect>
+            </textlayer>
+        </layer>
+        
+        <layer name="PageContent" color="fff">
+            <rect>
+                <left>0</left>
+                <top>114</top>
+                <right>100%</right>
+                <bottom>100%</bottom>
+            </rect>
+            <style>
+                <border>
+                    <left size="1" color="000000" alpha="20" />
+                    <right size="1" color="000000" alpha="20" />
+                </border>
+            </style>
+            
+            <textlayer name="ContentText" color="666">
+    			<text font="Verdana" size="11">Lorem ipsum alterum appareat rationibus ne pro. Vis ex odio illud labores, assum tation suscipit eam ea. Pri meis mazim aperiam eu, has te labores maiestatis deterruisset.
+
+Vim at vidit similique inciderint, meis ornatus nominavi id duo, usu ut accusata eloquentiam. Noluisse indoctum definiebas mei ad, vix eu ornatus ocurreret definiebas. Vide paulo fierent cu qui, at debet expetendis constituam mea.
+
+Ea eum detraxit qualisque, est assum eleifend deterruisset no, eos fabellas vivendum volutpat ad. In nec quis offendit dissentias, id vidit antiopam per. Tritani probatus mediocrem ius cu, ad sed ridens omnium petentium.
+
+Fugit postea sanctus ut pri, te pri stet summo docendi. Postea patrioque repudiandae mel id. Ex usu scaevola vituperata consectetuer, eius debitis albucius ea vim.</text>
+    			<rect>
+    				<left>20</left>
+    				<top>20</top>
+    				<right>-20</right>
+    				<bottom>-20</bottom>
+    			</rect>
+    		</textlayer>
+            
+        </layer>
+    </layer>
+</layout>

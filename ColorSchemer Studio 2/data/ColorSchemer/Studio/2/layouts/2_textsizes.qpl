@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1" name="文字大小" description="多行文字大小">
+
+    <textlayer name="Size 36" color="000">
+        <text font="Arial" size="36">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>40</top>
+            <right>100%</right>
+            <bottom>90</bottom>
+        </rect>
+    </textlayer>
+    <textlayer name="Size 30" color="222">
+        <text font="Arial" size="30">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>90</top>
+            <right>100%</right>
+            <bottom>140</bottom>
+        </rect>
+    </textlayer>
+    <textlayer name="Size 24" color="555">
+        <text font="Arial" size="24">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>140</top>
+            <right>100%</right>
+            <bottom>180</bottom>
+        </rect>
+    </textlayer>
+    <textlayer name="Size 20" color="888">
+        <text font="Arial" size="20">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>180</top>
+            <right>100%</right>
+            <bottom>220</bottom>
+        </rect>
+    </textlayer>
+    <textlayer name="Size 16" color="bbb">
+        <text font="Arial" size="16">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>220</top>
+            <right>100%</right>
+            <bottom>240</bottom>
+        </rect>
+    </textlayer>
+    <textlayer name="Size 12" color="ddd">
+        <text font="Arial" size="12">The quick brown fox jumps over the lazy dog</text>
+        <rect>
+            <left>20</left>
+            <top>254</top>
+            <right>100%</right>
+            <bottom>274</bottom>
+        </rect>
+    </textlayer>
+</layout>
